@@ -12,7 +12,7 @@ public interface BugService {
 
     int create(String pname,String crname,String crnum, String tasknum, String oname, String description, String rca, String solution, String developer, String tester);
 
-    int update(long id, String crnum, String tasknum, String oname, String description, String rca, String solution, String developer, String tester);
+    int update(long id, String pname,String crname,String crnum, String tasknum, String oname, String description, String rca, String solution, String developer, String tester);
 
     int deleteByID(int id);
 

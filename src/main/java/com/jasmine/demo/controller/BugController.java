@@ -1,8 +1,8 @@
 package com.jasmine.demo.controller;
 
 
-import com.jasmine.demo.bean.Bug;
-import com.jasmine.demo.service.BugService;
+import com.jasmine.demo.bean.*;
+import com.jasmine.demo.service.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +21,18 @@ public class BugController {
 
     @Autowired
     private BugService bugService;
+
+    @Autowired
+    private ProjectService projectService;
+
+    @Autowired
+    private EmpolyService empolyService;
+
+    @Autowired
+    private TestTypeService testTypeService;
+
+    @Autowired
+    private CRService crService;
 
 
 
@@ -109,6 +121,16 @@ public class BugController {
         model.addAttribute("description", description);
         model.addAttribute("rca", rca);
         model.addAttribute("solution", solution);
+        List<Project> projects = projectService.findAll();
+        List<Empoly> testers = empolyService.findTester();
+        List<Empoly> developers = empolyService.findDeveloper();
+        List<TestType> testType = testTypeService.findTestType();
+        List<CR> crtype = crService.findCRType();
+        model.addAttribute("projects", projects);
+        model.addAttribute("testers", testers);
+        model.addAttribute("developers", developers);
+        model.addAttribute("testType", testType);
+        model.addAttribute("crtype", crtype);
         return "update";
     }
 
@@ -128,7 +150,7 @@ public class BugController {
     @RequestMapping("/Update")
     public String update(Model model, Bug bug) {
         logger.info("修改用户"+bug);
-        int result = bugService.update(bug.getId(),bug.getCrnum(),bug.getTasknum(),bug.getDescription(),bug.getRca(),bug.getSolution(),bug.getOname(),bug.getDeveloper(),bug.getTester());
+        int result = bugService.update(bug.getId(),bug.getPname(),bug.getCrname(),bug.getCrnum(),bug.getOname(),bug.getTasknum(),bug.getDescription(),bug.getRca(),bug.getSolution(),bug.getDeveloper(),bug.getTester());
         if(result == 1) {
             logger.info("修改Bug信息成功！");
             model.addAttribute("message","修改Bug信息成功");

@@ -135,6 +135,35 @@ JOIN QA_EMPLOY  B ON B.`EMPLOY_ID` = QA_ASSIGNEE_ID AND B.`EMPLOY_GROUP` = 2   #
 
 
 
+SELECT BUG_ID,PROJECT_NAME,CR_NAME,BUG_CR_NUM,BUG_TASK_NUM,OBJECT_NAME,BUG_DESCRIPTION,BUG_RCA,BUG_SOLUTION,B.EMPLOY_NAME DEVELOPER,A.EMPLOY_NAME TESTER,QA_CREATIONDT,QA_UPDATEDT,BUG_DELETED_FLAG
+FROM QA_BUGLIST  JOIN QA_PROJECT ON BUG_PROJECT_ID = PROJECT_ID
+JOIN QA_CRTYPE ON CR_ID = BUG_CR_TYPE_ID
+JOIN QA_RTYPE ON OBJECT_ID = QA_TYPE_ID
+JOIN QA_EMPLOY A ON A.EMPLOY_ID = QA_TESTER_ID AND A.EMPLOY_GROUP = 1
+JOIN QA_EMPLOY B ON B.EMPLOY_ID= QA_ASSIGNEE_ID AND B.EMPLOY_GROUP = 2
+WHERE BUG_DELETED_FLAG =0 and BUG_ID = ?
+
+
+
+
+SELECT * FROM QA_PROJECT;
+SELECT * FROM QA_CRTYPE;
+SELECT * FROM QA_RTYPE;
+SELECT * FROM QA_EMPLOY;
+
+update qa_project set PROJECT_NAME = '宜家' where project_id =1;
+update qa_project set PROJECT_NAME = '香奈儿' where project_id =2;
+update qa_project set PROJECT_NAME = '欧莱雅' where project_id =3;
+update qa_project set PROJECT_NAME = '联合利华' where project_id =4;
+update qa_project set PROJECT_NAME = '博西' where project_id =5;
+update qa_project set PROJECT_NAME = '熙地港' where project_id =6;
+update qa_project set PROJECT_NAME = '家乐福' where project_id =7;
+update qa_project set PROJECT_NAME = '阿里巴巴' where project_id =8;
+update qa_project set PROJECT_NAME = '阿里妈妈' where project_id =9;
+update qa_project set PROJECT_NAME = '匡威' where project_id =10;
+update qa_project set PROJECT_NAME = '蔻驰' where project_id =11;
+update qa_project set PROJECT_NAME = '美宝莲' where project_id =12;
+update qa_project set PROJECT_NAME = '3ce' where project_id =13;
 
 
 
