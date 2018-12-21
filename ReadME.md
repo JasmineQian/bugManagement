@@ -17,3 +17,13 @@
 ### 关于log的文章
 <http://www.cnblogs.com/Mrchengs/p/10121937.html>
 
+##### git push -u origin master -f
+
+
+##### git commit -m "add logger"
+
+
+#### git remote add origin git@github.com:JasmineQian/SpringbootDemoDay03.git
+
+
+
