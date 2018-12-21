@@ -1,0 +1,201 @@
+2018-12-21 11:31:06.432  INFO 10492 --- [main] com.jasmine.demo.TestLog                 : Starting TestLog on jasqia-7050 with PID 10492 (started by jasqia in D:\00P_SpringTest\buglist)
+2018-12-21 11:31:06.434  INFO 10492 --- [main] com.jasmine.demo.TestLog                 : No active profile set, falling back to default profiles: default
+2018-12-21 11:31:06.466 DEBUG 10492 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3
+2018-12-21 11:31:17.546  INFO 10492 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2018-12-21 11:31:17.605  INFO 10492 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2018-12-21 11:31:17.608  INFO 10492 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-21 11:31:17.609  INFO 10492 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-21 11:31:17.609  INFO 10492 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-21 11:31:17.609  INFO 10492 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2018-12-21 11:31:17.609  INFO 10492 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2018-12-21 11:31:17.746  INFO 10492 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$afc52b37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-21 11:31:17.870  INFO 10492 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$2f457869] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-21 11:31:17.937  INFO 10492 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2018-12-21 11:31:17.940  INFO 10492 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2018-12-21 11:31:17.942  INFO 10492 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2018-12-21 11:31:17.952  INFO 10492 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWithMD5AndDES
+2018-12-21 11:31:17.953  INFO 10492 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.keyObtentionIterations, using default value: 1000
+2018-12-21 11:31:17.953  INFO 10492 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.poolSize, using default value: 1
+2018-12-21 11:31:17.953  INFO 10492 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerName, using default value: null
+2018-12-21 11:31:17.953  INFO 10492 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.providerClassName, using default value: null
+2018-12-21 11:31:17.953  INFO 10492 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.saltGeneratorClassname, using default value: org.jasypt.salt.RandomSaltGenerator
+2018-12-21 11:31:17.960  INFO 10492 --- [main] c.u.j.encryptor.DefaultLazyEncryptor     : Encryptor config not found for property jasypt.encryptor.stringOutputType, using default value: base64
+2018-12-21 11:31:18.730 DEBUG 10492 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2018-12-21 11:31:19.154 DEBUG 10492 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2018-12-21 11:31:19.332  INFO 10492 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-21 11:31:19.361 DEBUG 10492 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2018-12-21 11:31:19.417 DEBUG 10492 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2018-12-21 11:31:19.433 DEBUG 10492 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2018-12-21 11:31:19.845  INFO 10492 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-12-21 11:31:19.870  INFO 10492 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found {0} custom documentation plugin(s)
+2018-12-21 11:31:19.879  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-12-21 11:31:19.884  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:19.887  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: update belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.jasmine.demo.controller.BugController}]] 
+2018-12-21 11:31:19.888  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method create was bug-controller
+2018-12-21 11:31:19.888  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: create belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.jasmine.demo.controller.BugController}]] 
+2018-12-21 11:31:19.888  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method del was bug-controller
+2018-12-21 11:31:19.888  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: del belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.jasmine.demo.controller.BugController}]] 
+2018-12-21 11:31:19.889  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:19.889  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: findByIdpage belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.jasmine.demo.controller.BugController}]] 
+2018-12-21 11:31:19.889  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:19.889  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: insert belongs to groups: [[ResourceGroup{groupName='project-controller', position=0, controller=com.jasmine.demo.controller.ProjectController}]] 
+2018-12-21 11:31:19.890  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getList was bug-controller
+2018-12-21 11:31:19.890  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: getList belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.jasmine.demo.controller.BugController}]] 
+2018-12-21 11:31:19.890  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.890  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: PageList belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.jasmine.demo.controller.BugController}]] 
+2018-12-21 11:31:19.891  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:19.891  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Request mapping: update belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.jasmine.demo.controller.BugController}]] 
+2018-12-21 11:31:19.894  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/bug-controller Description: bug-controller Position: 0
+2018-12-21 11:31:19.895  INFO 10492 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Created resource listing Path: /default/project-controller Description: project-controller Position: 0
+2018-12-21 11:31:19.937  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:19.938  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-12-21 11:31:19.944  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:19.944  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-12-21 11:31:19.951  INFO 10492 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /listpage.com.jasmine.demo.controller.BugController.PageList.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:19.951  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /listpage.com.jasmine.demo.controller.BugController.PageList.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:19.966  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.969  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.973  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.974  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.976  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.977  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.979  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.980  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.981  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.982  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.984  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.985  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.987  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.988  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.990  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.990  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method PageList was bug-controller
+2018-12-21 11:31:19.994  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:19.995  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-12-21 11:31:19.995  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:19.995  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-12-21 11:31:19.995  INFO 10492 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /create.com.jasmine.demo.controller.BugController.create.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:19.995  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /create.com.jasmine.demo.controller.BugController.create.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:19.998  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method create was bug-controller
+2018-12-21 11:31:19.999  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method create was bug-controller
+2018-12-21 11:31:20.001  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:20.001  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-12-21 11:31:20.001  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:20.001  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-12-21 11:31:20.001  INFO 10492 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /del.com.jasmine.demo.controller.BugController.del.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.002  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /del.com.jasmine.demo.controller.BugController.del.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.005  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method del was bug-controller
+2018-12-21 11:31:20.006  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method del was bug-controller
+2018-12-21 11:31:20.007  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:20.007  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-12-21 11:31:20.007  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:20.007  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-12-21 11:31:20.008  INFO 10492 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /findByIdpage.com.jasmine.demo.controller.BugController.findByIdpage.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.008  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /findByIdpage.com.jasmine.demo.controller.BugController.findByIdpage.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.010  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.010  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.012  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.013  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.015  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.015  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.017  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.018  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.019  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.020  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.022  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.023  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.025  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.026  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.028  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.028  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method findByIdpage was bug-controller
+2018-12-21 11:31:20.029  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<com.jasmine.demo.bean.Bug>(true)
+2018-12-21 11:31:20.030  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.util.List<com.jasmine.demo.bean.Bug>(true)
+2018-12-21 11:31:20.030  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.util.List<com.jasmine.demo.bean.Bug>(true)
+2018-12-21 11:31:20.030  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.util.List<com.jasmine.demo.bean.Bug>(true)
+2018-12-21 11:31:20.031  INFO 10492 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jasmine.demo.bean.Bug(true)
+2018-12-21 11:31:20.031  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jasmine.demo.bean.Bug(true)
+2018-12-21 11:31:20.062  INFO 10492 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: java.util.List<com.jasmine.demo.bean.Bug>(true)
+2018-12-21 11:31:20.063  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key java.util.List<com.jasmine.demo.bean.Bug>(true)
+2018-12-21 11:31:20.064  INFO 10492 --- [main] s.d.s.p.ModelPropertiesKeyGenerator      : Cache key generated: com.jasmine.demo.bean.Bug(true)
+2018-12-21 11:31:20.065  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelProperties with key com.jasmine.demo.bean.Bug(true)
+2018-12-21 11:31:20.067  INFO 10492 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /listapi.com.jasmine.demo.controller.BugController.getList.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.068  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /listapi.com.jasmine.demo.controller.BugController.getList.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.069  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getList was bug-controller
+2018-12-21 11:31:20.070  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method getList was bug-controller
+2018-12-21 11:31:20.072  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:20.073  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-12-21 11:31:20.073  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:20.073  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-12-21 11:31:20.073  INFO 10492 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /Update.com.jasmine.demo.controller.BugController.update.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.073  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /Update.com.jasmine.demo.controller.BugController.update.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.076  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.076  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.078  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.079  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.082  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.083  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.085  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.086  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.089  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.090  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.093  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.094  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.097  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.098  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.100  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.101  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.103  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:20.103  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-12-21 11:31:20.103  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:20.103  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-12-21 11:31:20.103  INFO 10492 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /toUpdate.com.jasmine.demo.controller.BugController.update.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.103  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /toUpdate.com.jasmine.demo.controller.BugController.update.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.113  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.114  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.114  INFO 10492 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingGET_1
+2018-12-21 11:31:20.123  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.124  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.124  INFO 10492 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingHEAD_1
+2018-12-21 11:31:20.131  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.132  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.133  INFO 10492 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2018-12-21 11:31:20.140  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.141  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.141  INFO 10492 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPUT_1
+2018-12-21 11:31:20.148  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.149  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.149  INFO 10492 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPATCH_1
+2018-12-21 11:31:20.155  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.155  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.156  INFO 10492 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingDELETE_1
+2018-12-21 11:31:20.163  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.163  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.164  INFO 10492 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingOPTIONS_1
+2018-12-21 11:31:20.171  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.171  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method update was bug-controller
+2018-12-21 11:31:20.172  INFO 10492 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingTRACE_1
+2018-12-21 11:31:20.182  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:20.183  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache models with key java.lang.String(true)
+2018-12-21 11:31:20.183  INFO 10492 --- [main] s.d.schema.ModelContextKeyGenerator      : Cache Key Generated: java.lang.String(true)
+2018-12-21 11:31:20.183  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2018-12-21 11:31:20.183  INFO 10492 --- [main] s.d.spring.web.OperationsKeyGenerator    : Cache key generated: /insert.com.jasmine.demo.controller.ProjectController.insert.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.183  INFO 10492 --- [main] s.d.spring.web.caching.CachingAspect     : Caching aspect applied for cache operations with key /insert.com.jasmine.demo.controller.ProjectController.insert.DefaultGenericTypeNamingStrategy
+2018-12-21 11:31:20.184  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.184  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.185  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.185  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.186  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.187  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.187  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.188  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.189  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.189  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.190  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.191  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.192  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.192  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.193  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.193  INFO 10492 --- [main] s.w.ClassOrApiAnnotationResourceGrouping : Group for method insert was project-controller
+2018-12-21 11:31:20.206  INFO 10492 --- [main] com.jasmine.demo.TestLog                 : Started TestLog in 14.126 seconds (JVM running for 15.039)
+2018-12-21 11:31:20.392  INFO 10492 --- [main] com.jasmine.demo.TestLog                 : =====>>>>> logger()
+2018-12-21 11:31:20.397 DEBUG 10492 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@7ce026d3, started on Fri Dec 21 11:31:06 CST 2018
+2018-12-21 11:31:20.399  INFO 10492 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
