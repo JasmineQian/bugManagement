@@ -2,7 +2,7 @@
 
 ### 查看页面
 <http://localhost:8080/listpage>
-
+<http://localhost:8080/swagger-ui.html>
 
 ### 查看具体每个bug
 <http://localhost:8080/findByIdpage?BugListId=34>
@@ -56,7 +56,65 @@ $ vi .git/config
 
 ###  仔细看报错，看清楚，看清楚，看清楚
 
-`
+
+##### mvn clean install
+
+
+
+ <dependency>
+            <groupId>javax.el</groupId>
+            <artifactId>javax.el-api</artifactId>
+            <version>2.2.4</version>
+</dependency>
+
+<dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>javax.el</artifactId>
+            <version>2.2.4</version>
+</dependency>
+
+### 如何打包成为 war 包
+##### 第一步：pom.xml 文件中，打包方式需要修改成war    
+
+<packaging>war</packaging>
+  
+
+##### 第二步：pom.xml 文件中，spring-boot-starter-web下需要移除自带的tomcat
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <!-- 移除嵌入式tomcat插件 -->
+    <exclusions>
+        <exclusion>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
+
+
+##### 第三步：修改启动类，继承SpringBootServletInitializer 
+@SpringBootApplication
+@EnableScheduling
+public class Application extends SpringBootServletInitializer {
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+        // 注意这里要指向原先用main方法执行的Application启动类
+        return builder.sources(Application.class);
+    }
+}
+
+##### 第四步：pom.xml 中添加依赖，否则报错
+cannot access javax.servlet.ServletException
+[ERROR] class file for javax.servlet.ServletException not found
+
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>3.1.0</version>
+    <scope>provided</scope>
+</dependency>
 
 
 

@@ -5,7 +5,6 @@
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,98 +147,94 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1934953328">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="MF" value="1" />
+          <entry key="class" value="5" />
+          <entry key="groovy" value="4" />
+          <entry key="html" value="6" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="27" />
+          <entry key="js" value="1" />
+          <entry key="log" value="5" />
+          <entry key="md" value="2" />
+          <entry key="properties" value="7" />
+          <entry key="sql" value="3" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="5" />
+          <entry key="HTML" value="6" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="27" />
+          <entry key="Manifest" value="1" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="7" />
+          <entry key="SQL" value="3" />
+          <entry key="Scratch" value="5" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="103" />
+          <entry key="java" value="51" />
+          <entry key="log" value="2" />
+          <entry key="md" value="7" />
+          <entry key="properties" value="22" />
+          <entry key="xml" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="103" />
+          <entry key="JAVA" value="51" />
+          <entry key="Markdown" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="22" />
+          <entry key="XML" value="38" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BugServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/impl/BugServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadME.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReadME.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="339">
-                <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-mssql.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-mssql.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BugController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/BugController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="131" selection-start-line="131" selection-end-line="143" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/update.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="75" column="61" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="If.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/com/sun/org/apache/xalan/internal/xsltc/compiler/If.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="97" column="53" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="53" />
+            <state relative-caret-position="344">
+              <caret line="53" selection-start-line="53" selection-end-line="58" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BugService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/BugService.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/update.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="697">
+              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insert.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/insert.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/bean/Bug.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="56" column="76" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/ProjectController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="33" column="32" selection-start-line="23" selection-start-column="4" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="-1349">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -262,9 +257,11 @@
       <find>container-fluid</find>
       <find>btn-info</find>
       <find>System.out.println</find>
+      <find>logger.info</find>
     </findStrings>
     <replaceStrings>
       <replace>logger.info</replace>
+      <replace>System.out.println</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -280,9 +277,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/serviceImpl/BugListServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/controller/BugListController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/bean/Bug.java" />
         <option value="$PROJECT_DIR$/buglist.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/success.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/error.ftl" />
@@ -311,26 +305,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/service/impl/CRServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/service/impl/TestTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/controller/ProjectController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/insert.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/service/BugService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/controller/BugController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/service/impl/BugServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/details.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/list.html" />
         <option value="$PROJECT_DIR$/src/test/java/com/jasmine/demo/StartAppTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/jasmine/demo/TestLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/ProjectController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application-mysql.properties" />
         <option value="$PROJECT_DIR$/buglist-mysql.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/BugService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/BugController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/update.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/impl/BugServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-mssql.properties" />
+        <option value="$PROJECT_DIR$/Logs/aaa.log" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jasmine/demo/SpringBootStartApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jasmine/demo/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/impl/BugServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/BugController.java" />
         <option value="$PROJECT_DIR$/ReadME.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/insert.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/update.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -347,12 +344,42 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bugSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bugSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bugSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bugSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bugSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="397" />
-    <option name="y" value="201" />
+    <option name="x" value="172" />
+    <option name="y" value="398" />
     <option name="width" value="1295" />
     <option name="height" value="695" />
   </component>
@@ -364,47 +391,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
-              <item name="Logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -412,8 +445,26 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -421,45 +472,47 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="buglist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringbootDemoDay03" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringbootDemoDay03" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,7 +524,7 @@
     <property name="SearchEverywhereHistoryKey" value="if&#9;PSI&#9;JAVA://com.sun.org.apache.xalan.internal.xsltc.compiler.If" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545364285108" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545803903059" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -508,7 +561,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StartApp">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jasmine.demo.Application" />
+      <module name="demo8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jasmine.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartAppTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo8" />
       <extension name="coverage">
@@ -517,20 +583,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.jasmine.demo" />
       <option name="MAIN_CLASS_NAME" value="com.jasmine.demo.StartAppTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="StartAppTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo8" />
@@ -540,20 +601,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.jasmine.demo" />
       <option name="MAIN_CLASS_NAME" value="com.jasmine.demo.StartAppTests" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestLog.logger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo8" />
@@ -563,24 +619,29 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.jasmine.demo" />
       <option name="MAIN_CLASS_NAME" value="com.jasmine.demo.TestLog" />
       <option name="METHOD_NAME" value="logger" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo8" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jasmine.demo.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Demo8Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo8" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jasmine.buglist.demo8.Demo8Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="StartApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="demo8" />
@@ -591,6 +652,9 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jasmine.demo.StartApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Demo8Application" />
@@ -598,9 +662,12 @@
       <item itemvalue="JUnit.StartAppTests.contextLoads" />
       <item itemvalue="JUnit.StartAppTests.test" />
       <item itemvalue="JUnit.TestLog.logger" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Application.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="Spring Boot.StartApp" />
         <item itemvalue="JUnit.TestLog.logger" />
         <item itemvalue="JUnit.StartAppTests.test" />
@@ -626,6 +693,8 @@
       <workItem from="1545371482005" duration="753000" />
       <workItem from="1545378424394" duration="926000" />
       <workItem from="1545401001114" duration="10706000" />
+      <workItem from="1545617699164" duration="2932000" />
+      <workItem from="1545704762248" duration="18134000" />
     </task>
     <servers />
   </component>
@@ -659,79 +728,79 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65950000" />
+    <option name="totallyTimeSpent" value="87016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5012225" side_tool="true" weight="0.32988507" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32741398" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32988507" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.34295228" />
-      <window_info anchor="bottom" id="Spring" order="0" weight="0.32988507" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4987775" visible="true" weight="0.3307436" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31716418" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32988507" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.4987775" visible="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5012225" side_tool="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32988507" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3288889" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32741398" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.3422222" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32988507" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.15709047" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.17803837" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31716418" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.34295228" />
-      <window_info anchor="bottom" id="Spring" order="0" weight="0.32988507" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4987775" weight="0.33097345" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32988507" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4987775" weight="0.33097345" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5012225" side_tool="true" weight="0.32988507" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32741398" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32988507" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32988507" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31716418" />
-      <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32988507" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32741398" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.34295228" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.15709047" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.15709047" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout-to-restore>
   </component>
@@ -747,90 +816,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/bean/Project.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/bean/Empoly.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/bean/CR.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/service/CRService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/jdbc/CRMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/controller/ProjectController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/service/BugService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/controller/BugController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/service/impl/BugServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/buglist/demo8/service/impl/TestTypeServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/impl/CRServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="62" lean-forward="true" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/jdbc/CRMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/jdbc/EmpolyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/jdbc/ProjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/jdbc/TestTypeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/impl/TestTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvnw.cmd" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/bean/Bug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="140" lean-forward="true" selection-end-line="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/bean/CR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/bean/Empoly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -852,19 +837,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/CRService.java">
+    <entry file="file://$PROJECT_DIR$/Logs/demo.log/spring.log" />
+    <entry file="file://$PROJECT_DIR$/Logs/spring.log" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="182">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/EmpolyService.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/com/sun/org/apache/xalan/internal/xsltc/compiler/If.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/jdbc/BugRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/CSV-Groovy.csv.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-Groovy.html.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-JavaScript.html.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/JSON-Groovy.json.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.1.1.RELEASE/spring-boot-starter-json-2.1.1.RELEASE.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/jasmine/demo/SpringBootStartApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/jasmine/demo/StartApp.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/jasmine/demo/Swagger2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="32" selection-start-line="23" selection-start-column="4" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/impl/BugServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/aaa.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/ProjectService.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -880,150 +984,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jasmine/demo/StartAppTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/demo.log/spring.log" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jasmine/demo/TestLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="170">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/jasmine/demo/StartAppTests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/com/jasmine/demo/TestLog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#591#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buglist.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        <state relative-caret-position="541">
+          <caret line="55" selection-start-line="55" selection-end-line="58" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/StartApp.java">
+    <entry file="file://$PROJECT_DIR$/buglist-mysql.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="357">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/demo.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo8.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-717" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/BugService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/CRService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/EmpolyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/BugController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application--mysql.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/spring.log">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jasmine/demo/TestLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Logs/aaa.log">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jasmine/demo/StartAppTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="184" column="108" selection-start-line="184" selection-start-column="108" selection-end-line="184" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buglist-mysql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/ProjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="33" column="32" selection-start-line="23" selection-start-column="4" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/BugService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="97" column="53" selection-start-line="97" selection-start-column="44" selection-end-line="97" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/com/sun/org/apache/xalan/internal/xsltc/compiler/If.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/insert.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="76" selection-start-line="56" selection-start-column="72" selection-end-line="56" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/controller/BugController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="131" selection-start-line="131" selection-end-line="143" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/update.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="75" column="61" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/service/impl/BugServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-mssql.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="68">
+          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="339">
-            <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <first_editor relative-caret-position="482">
+            <caret line="73" selection-start-line="73" selection-end-line="73" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="23" selection-start-line="23" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/auto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/insert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="87" column="61" selection-start-line="87" selection-start-column="61" selection-end-line="87" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jasmine/demo/bean/Bug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1349">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="53" selection-start-line="53" selection-end-line="58" selection-end-column="21" />
         </state>
       </provider>
     </entry>

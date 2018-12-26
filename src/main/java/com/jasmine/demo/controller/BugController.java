@@ -3,10 +3,7 @@ package com.jasmine.demo.controller;
 
 import com.jasmine.demo.bean.*;
 import com.jasmine.demo.service.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -17,7 +14,6 @@ import java.util.List;
 @Controller
 public class BugController {
 
-    Logger logger = LoggerFactory.getLogger(BugController.class);
 
     @Autowired
     private BugService bugService;
@@ -38,24 +34,24 @@ public class BugController {
 
     @RequestMapping("/listpage")
     public String PageList(Model model) {
-        logger.info("查询Buglist信息");
+        System.out.println("查询Buglist信息");
         List<Bug> bugs = bugService.findAll();
 
         if (bugs.size() > 0) {
-            logger.info("查询Buglist信息成功");
+            System.out.println("查询Buglist信息成功");
         }
         model.addAttribute("list", bugs);
-        logger.info(String.valueOf(bugs));
+        System.out.println(String.valueOf(bugs));
         return "list";
     }
 
     @RequestMapping("/findByIdpage")
     public String findByIdpage(Model model, @RequestParam("BugListId") int id) {
-        logger.info("根据用户ID查询用户信息");
+        System.out.println("根据用户ID查询用户信息");
         Bug bug = bugService.findById(id);
-        logger.info(String.valueOf(bug));
+        System.out.println(String.valueOf(bug));
         if (bug != null) {
-            logger.info("查询成功！");
+            System.out.println("查询成功！");
             model.addAttribute("bug", bug);
             model.addAttribute("message", "查询成功");
             return "details";
@@ -70,15 +66,15 @@ public class BugController {
 
     @PostMapping("/create")
     public String create(Model model,Bug bug) {
-        logger.info("新增bug记录");
+        System.out.println("新增bug记录");
         int result = bugService.create(bug.getPname(),bug.getCrname(),bug.getCrnum(),bug.getTasknum(),bug.getOname(),bug.getDescription(),bug.getRca(),bug.getSolution(),bug.getDeveloper(),bug.getTester());
         if(result == 1) {
-            logger.info("新增bug成功！");
+            System.out.println("新增bug成功！");
             model.addAttribute("message","新增bug成功");
             return "auto";
         }else {
             model.addAttribute("message","新增bug失败");
-            logger.info("新增bug失败!");
+            System.out.println("新增bug失败!");
             return "auto";
         }
 
@@ -91,9 +87,9 @@ public class BugController {
     @GetMapping("/del")
     public String del(Model model, @RequestParam("BugListId") int id) {
         int temp = bugService.deleteByID(id);
-        logger.info(String.valueOf(temp));
+        System.out.println(String.valueOf(temp));
         if (temp > 0) {
-            logger.info("删除成功!");
+            System.out.println("删除成功!");
             model.addAttribute("message", "删除成功");
             return "auto";
         } else {
@@ -109,7 +105,7 @@ public class BugController {
                          @RequestParam("crname") String crname, @RequestParam("crnum") String crnum, @RequestParam("tasknum") String tasknum,
                          @RequestParam("oname") String oname, @RequestParam("tester") String tester, @RequestParam("developer") String developer,
                          @RequestParam("description") String description, @RequestParam("rca") String rca, @RequestParam("solution") String solution) {
-        logger.info("转向更新页面,在页面提交之前，并未进行更新");
+        System.out.println("转向更新页面,在页面提交之前，并未进行更新");
         model.addAttribute("id", id);
         model.addAttribute("pname", pname);
         model.addAttribute("crname", crname);
@@ -138,25 +134,25 @@ public class BugController {
     @GetMapping("/listapi")
     @ResponseBody
     public List<Bug> getList() {
-        logger.info("从数据库中读取buglist集合");
+        System.out.println("从数据库中读取buglist集合");
         List<Bug> bugs = bugService.findAll();
 
         if(bugs.size()>0) {
-            logger.info("查询Buglist信息成功");
+            System.out.println("查询Buglist信息成功");
         }
         return bugs;
     }
 
     @RequestMapping("/Update")
     public String update(Model model, Bug bug) {
-        logger.info("修改用户"+bug);
+        System.out.println("修改用户"+bug);
         int result = bugService.update(bug.getId(),bug.getPname(),bug.getCrname(),bug.getCrnum(),bug.getOname(),bug.getTasknum(),bug.getDescription(),bug.getRca(),bug.getSolution(),bug.getDeveloper(),bug.getTester());
         if(result == 1) {
-            logger.info("修改Bug信息成功！");
+            System.out.println("修改Bug信息成功！");
             model.addAttribute("message","修改Bug信息成功");
             return "auto";
         }else {
-            logger.info("修改Bug信息失败!");
+            System.out.println("修改Bug信息失败!");
             model.addAttribute("message","修改Bug信息成功");
             return "auto";
         }

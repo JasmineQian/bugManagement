@@ -3,13 +3,11 @@ package com.jasmine.demo.service.impl;
 import com.jasmine.demo.bean.Bug;
 import com.jasmine.demo.jdbc.BugRowMapper;
 import com.jasmine.demo.service.BugService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
 import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -66,7 +64,7 @@ public class BugServiceImpl implements BugService {
         Date dt =new Date();
         DateFormat bf = DateFormat.getDateTimeInstance();
         String date =bf.format(dt);
-        String sql = "update QA_BUGLIST set BUG_PROJECT_ID = ?,QA_TYPE_ID=?, BUG_CR_NUM =?, BUG_CR_TYPE_ID =?,BUG_TASK_NUM =?,BUG_DESCRIPTION=?,BUG_RCA=?,BUG_SOLUTION= ?,QA_ASSIGNEE_ID = ? ,QA_TESTER_ID =? ,QA_UPDATEDT =? where BUG_ID = ?";
+        String sql = "update QA_BUGLIST set BUG_PROJECT_ID = ?,BUG_CR_TYPE_ID=?, BUG_CR_NUM =?, QA_TYPE_ID =?,BUG_TASK_NUM =?,BUG_DESCRIPTION=?,BUG_RCA=?,BUG_SOLUTION= ?,QA_ASSIGNEE_ID = ? ,QA_TESTER_ID =? ,QA_UPDATEDT =? where BUG_ID = ?";
         System.out.println("sql:"+sql);
         System.out.println(pname);
         System.out.println(crname);
@@ -80,11 +78,6 @@ public class BugServiceImpl implements BugService {
         System.out.println(tester);
         System.out.println(date);
         System.out.println(id);
-
-
-
-
-
         return jdbcTemplate.update(sql,pname,crname,crnum,oname,tasknum,description,rca,solution,developer,tester,date,id);
     }
 
