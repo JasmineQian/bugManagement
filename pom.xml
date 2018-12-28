@@ -17,12 +17,11 @@
     </repositories>
 
 
-
     <groupId>com.jasmine.buglist</groupId>
     <artifactId>buglist</artifactId>
     <version>4.4.1</version>
     <name>bugSystem</name>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <description>Buglist project for Spring Boot</description>
 
     <properties>
@@ -42,21 +41,8 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <!-- 移除嵌入式tomcat插件 -->
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-tomcat</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
-            <scope>provided</scope>
-        </dependency>
 
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
@@ -84,13 +70,12 @@
 
         <!--log-->
         <!--<dependency>-->
-            <!--<groupId>org.projectlombok</groupId>-->
-            <!--<artifactId>lombok</artifactId>-->
-            <!--<optional>true</optional>-->
+        <!--<groupId>org.projectlombok</groupId>-->
+        <!--<artifactId>lombok</artifactId>-->
+        <!--<optional>true</optional>-->
         <!--</dependency>-->
 
-
-
+        <!--swagger2-->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
@@ -101,6 +86,7 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.2.2</version>
         </dependency>
+
         <!-- 数据库加密 -->
         <dependency>
             <groupId>com.github.ulisesbocchio</groupId>
