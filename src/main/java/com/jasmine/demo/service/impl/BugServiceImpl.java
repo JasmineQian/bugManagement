@@ -29,7 +29,7 @@ public class BugServiceImpl implements BugService {
                 "JOIN QA_RTYPE ON OBJECT_ID = QA_TYPE_ID\n" +
                 "JOIN QA_EMPLOY A ON A.EMPLOY_ID = QA_TESTER_ID AND A.EMPLOY_GROUP = 1 \n" +
                 "JOIN QA_EMPLOY B ON B.EMPLOY_ID= QA_ASSIGNEE_ID AND B.EMPLOY_GROUP = 2\n" +
-                "WHERE BUG_DELETED_FLAG =0 order by 1 desc";
+                "WHERE BUG_DELETED_FLAG =0 order by 1 desc limit 30";
         List<Bug> bugs = jdbcTemplate.query(sql,new BugRowMapper() );
         return bugs;
 
